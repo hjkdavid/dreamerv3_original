@@ -1,6 +1,6 @@
 defaults:
 
-  logdir: ~/logdir/{timestamp}
+  logdir: ~/Projects/Enc/dreamerv3_original/logdir/{timestamp}
   replica: 0
   replicas: 1
   method: name
@@ -164,7 +164,7 @@ atari:
   run: {steps: 5.1e7, train_ratio: 32}
 
 procgen:
-  task: procgen_coinrun
+  task: procgen_jumper
   run: {steps: 1.1e8, train_ratio: 64}
 
 atari100k:
